@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://phosbortae.com/sitemap.xml
