@@ -1,0 +1,9 @@
+{
+  "schema":1,
+  "hierarchy":"open",
+  "areas":[
+    {"id":"zwischenraum","parent_id":"phosbortae","label":"ZWISCHENRAUM","de":"Raum für ungehörte Sätze, Verlust und Weiterleben. Die Bleibenden verbindet Musik und Worte für Erfahrungen, für die im Alltag oft die Sprache fehlt.","en":"A space for unheard words, loss and continuing to live. Die Bleibenden brings music and words to experiences that can be difficult to express.","href":"#leitfaeden","link_de":"Orientierung und Gesprächshilfen →","link_en":"Find conversation resources →"},
+    {"id":"one-sky","parent_id":"phosbortae","label":"ONE SKY","de":"Kein Mensch ist ein Ziel. Ein Musikprojekt gegen Krieg und für den Wert jedes Menschenlebens — über Sprachen und Grenzen hinweg.","en":"No human being is a target. A music project against war and for the value of every human life — across languages and borders.","href":"#mitwirken","link_de":"Mit einem Gedanken anknüpfen →","link_en":"Start with a thought →"},
+    {"id":"seelenklang","parent_id":"phosbortae","label":"Seelenklang","de":"Erinnerungen, Werte und eigene Erfahrungen als Ausgangspunkt für persönlichen Ausdruck. Ein entstehendes Musik- und Reflexionsprojekt.","en":"Memories, values and lived experience as starting points for personal expression. A music and reflection project in development.","href":"orakel/","link_de":"Eigene Interessen erkunden →","link_en":"Explore your interests (German) →"}
+  ]
+}

@@ -1,32 +1,12 @@
-# PHOSBORTAE Website
+# PHOSBORTAE public website
 
-Erste produktionsfähige Grundlage für phosbortae.com.
+The production entry point is the buildless `index.html` at the repository root, with `site.css`, `site.js` and `worlds.json`. GitHub Pages serves this branch and the existing CNAME remains unchanged.
 
-## Cloudflare Pages
-- Framework: React (Vite)
-- Build command: `npm run build`
-- Build output directory: `dist`
-- Production branch: `main`
+`worlds.json` stores stable area IDs and editable parent relationships. It does not declare a final world hierarchy. Language text is editable through paired `data-de` and `data-en` attributes. The Oracle runs locally in the browser under `orakel/`; no profile data is transmitted.
 
-## Lokal
-```bash
-npm install
-npm run dev
-npm run build
-```
+The two dated general guidance PDFs are under `downloads/`. The current website uses the existing project signet as an explicitly permitted interim identity. No unreleased audio, private project register, filled questionnaire or case correspondence is included.
 
-## Enthalten
-- responsive Startseite
-- Deutsch/Englisch-Umschaltung
-- Tastaturnavigation und Skip-Link
-- Kontrast- und Bewegungsoption
-- Schöpfungscode
-- Platzhalter für Shop, Konto, Registrierung und Newsletter
-- SEO-Grundlagen, Sitemap, Sicherheitsheader und SPA-Redirect
+The pre-12-November React source/build assets remain in Git history and in their existing locations for preservation. They are not the source of this new root page. No dependency installation or React rebuild is needed to maintain the root page.
 
-## Nächste Ausbaustufen
-1. Rechtstexte und echte Unterseiten
-2. Registrierung/Login mit sicherem Backend
-3. Newsletter mit Double-Opt-in
-4. Shop-Anbindung
-5. CMS, Projekte und KI-Orakel
+Prepared: 12 November 2026. Publication is pending repository write access and public verification. No complete browser/device accessibility certification is claimed.
+
