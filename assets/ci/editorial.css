@@ -18,16 +18,10 @@
     min-height: 5.5rem; border-bottom: 1px solid #b8ad97;
   }
   .wordmark {
-    display: inline-block; vertical-align: middle; width: 9.5rem; aspect-ratio: 512 / 279;
-    background: url("historisches-logo.webp") left center / contain no-repeat;
-    font-size: 0; line-height: 0;
+    display: inline-flex; align-items: center; text-decoration: none;
+    font: 600 clamp(1.22rem,2vw,1.68rem)/1.15 var(--ci-serif);
+    letter-spacing: .09em;
   }
-  .mast .wordmark {
-    mask-image: linear-gradient(90deg, transparent, black 19%, black 81%, transparent),
-                linear-gradient(transparent, black 15%, black 84%, transparent);
-    mask-composite: intersect;
-  }
-  .mast .wordmark:focus-visible { mask-image: none; }
   .mast .nav-toggle { color:#26282a; border-color:#857b6c; }
   .mast nav a:hover { color:#735426; }
   .mast nav a:focus-visible,.mast .wordmark:focus-visible,.mast .nav-toggle:focus-visible { outline-color:#765725; }
@@ -92,7 +86,7 @@
     .home-hero .actions { align-items: flex-start; }
   }
   @media (max-width: 720px) {
-    .mast.wrap { min-height: 4.7rem; gap: .7rem; padding-block: .35rem; } .mast .wordmark { width: 7.7rem; }
+    .mast.wrap { min-height: 4.7rem; gap: .7rem; padding-block: .35rem; } 
     .home-hero { grid-template-columns: 1fr; gap: 2rem; padding-block: 2.6rem 2rem; }
     .home-hero h1 { font-size: clamp(3.5rem, 14.8vw, 6.5rem); }
     .home-hero .lead { margin-top: 1.2rem; }
