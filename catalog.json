@@ -1,0 +1,282 @@
+[
+  {
+    "id": "sporthose",
+    "title": "Sporthose · große Frakturschrift",
+    "description": "Aktueller Entwurf · Weite schwarze Sporthose mit großer heller PHOSBORTAE-Schrift außen am langen Bein.",
+    "priceEur": null,
+    "available": false,
+    "image": "kollektion/assets/sporthose-mockup.png"
+  },
+  {
+    "id": "ci-hosenvergleich",
+    "title": "Eine Hose · zwei Farbanwendungen",
+    "description": "CI-Vergleich · Gold auf Dunkel und Türkis mit Goldkontur auf derselben Sporthosenform.",
+    "priceEur": null,
+    "available": false,
+    "image": "kollektion/assets/hose-farbvergleich.png"
+  },
+  {
+    "id": "kollektion-silberbaum",
+    "title": "Silberbaum / Stimme · Gesamtansicht",
+    "description": "Unangenommene Variante · Die vorhandene dunkle Gestaltungsansicht mit T-Shirt, Hoodie, vorläufiger Hose und Begleitern.",
+    "priceEur": null,
+    "available": false,
+    "image": "kollektion/assets/kollektion-silberbaum.png"
+  },
+  {
+    "id": "layout-01-tshirt-ruecken",
+    "title": "T-Shirt · Rücken, zentriert",
+    "description": "Layoutentwurf · Rücken, zentriert. Vorhandene Silberbaum-/Wortmarken-Anwendung.",
+    "priceEur": null,
+    "available": false,
+    "image": "kollektion/assets/01-tshirt-ruecken.svg"
+  },
+  {
+    "id": "layout-02-tshirt-brust",
+    "title": "T-Shirt · Linke Brust",
+    "description": "Layoutentwurf · Linke Brust. Vorhandene Silberbaum-/Wortmarken-Anwendung.",
+    "priceEur": null,
+    "available": false,
+    "image": "kollektion/assets/02-tshirt-brust.svg"
+  },
+  {
+    "id": "layout-03-hoodie-brust",
+    "title": "Hoodie · Linke Brust",
+    "description": "Layoutentwurf · Linke Brust. Vorhandene Silberbaum-/Wortmarken-Anwendung.",
+    "priceEur": null,
+    "available": false,
+    "image": "kollektion/assets/03-hoodie-brust.svg"
+  },
+  {
+    "id": "layout-04-hoodie-ruecken",
+    "title": "Hoodie · Rücken, zentriert",
+    "description": "Layoutentwurf · Rücken, zentriert. Vorhandene Silberbaum-/Wortmarken-Anwendung.",
+    "priceEur": null,
+    "available": false,
+    "image": "kollektion/assets/04-hoodie-ruecken.svg"
+  },
+  {
+    "id": "layout-05-hose-aussenbein",
+    "title": "Hose · Äußeres Bein",
+    "description": "Historischer Vorgänger · Äußeres Bein. Vorhandene Silberbaum-/Wortmarken-Anwendung.",
+    "priceEur": null,
+    "available": false,
+    "image": "kollektion/assets/05-hose-aussenbein.svg"
+  },
+  {
+    "id": "layout-06-hose-huefte",
+    "title": "Hose · Hüfte",
+    "description": "Historischer Vorgänger · Hüfte. Vorhandene Silberbaum-/Wortmarken-Anwendung.",
+    "priceEur": null,
+    "available": false,
+    "image": "kollektion/assets/06-hose-huefte.svg"
+  },
+  {
+    "id": "layout-07-bag-front",
+    "title": "Bag · Front, mittig",
+    "description": "Layoutentwurf · Front, mittig. Vorhandene Silberbaum-/Wortmarken-Anwendung.",
+    "priceEur": null,
+    "available": false,
+    "image": "kollektion/assets/07-bag-front.svg"
+  },
+  {
+    "id": "layout-08-tasse-umlauf",
+    "title": "Tasse · Umlauf; druckbarer Bereich noch abzugleichen",
+    "description": "Layoutentwurf · Umlauf; druckbarer Bereich noch abzugleichen. Vorhandene Silberbaum-/Wortmarken-Anwendung.",
+    "priceEur": null,
+    "available": false,
+    "image": "kollektion/assets/08-tasse-umlauf.svg"
+  },
+  {
+    "id": "layout-09-lanyard-band",
+    "title": "Schlüsselband · Flaches Rapportmotiv; tatsächliche Bandbreite offen",
+    "description": "Layoutentwurf · Flaches Rapportmotiv; tatsächliche Bandbreite offen. Vorhandene Silberbaum-/Wortmarken-Anwendung.",
+    "priceEur": null,
+    "available": false,
+    "image": "kollektion/assets/09-lanyard-band.svg"
+  },
+  {
+    "id": "layout-10-hoodie-aermel",
+    "title": "Hoodie · Aermel, Zweigstreifen",
+    "description": "Layoutentwurf · Aermel, Zweigstreifen. Vorhandene Silberbaum-/Wortmarken-Anwendung.",
+    "priceEur": null,
+    "available": false,
+    "image": "kollektion/assets/10-hoodie-aermel.svg"
+  },
+  {
+    "id": "logo-01-silberbaum",
+    "title": "Zeichenvariante · Silberbaum",
+    "description": "Unangenommene Logoidee · Organischer Baum mit Wurzeln und offenem Orbit.",
+    "priceEur": null,
+    "available": false,
+    "image": "kollektion/assets/logo-01-silberbaum.svg"
+  },
+  {
+    "id": "logo-02-offener-raum",
+    "title": "Zeichenvariante · Offener Raum",
+    "description": "Unangenommene Logoidee · Baum in einer kräftigeren geöffneten Kreisform.",
+    "priceEur": null,
+    "available": false,
+    "image": "kollektion/assets/logo-02-offener-raum.svg"
+  },
+  {
+    "id": "logo-03-stimme",
+    "title": "Zeichenvariante · Stimme",
+    "description": "Unangenommene Logoidee · Wortmarke, Baum und STIMME-Signal als gemeinsame Zeichenidee.",
+    "priceEur": null,
+    "available": false,
+    "image": "kollektion/assets/logo-03-stimme.svg"
+  },
+  {
+    "id": "hero-silberbaum",
+    "title": "Silberbaum · große Wortmarken-Anwendung",
+    "description": "Unangenommene Variante · Baum, Wortmarke und „Wir schaffen ein Universum“ als vorhandener Heroentwurf.",
+    "priceEur": null,
+    "available": false,
+    "image": "kollektion/assets/hero-silberbaum.svg"
+  },
+  {
+    "id": "platzierung-sporthose",
+    "title": "Sporthose · Platzierungsskizze",
+    "description": "Hosen-Nachtrag · Technische Entwurfsskizze der großen Schrift entlang des äußeren Hosenbeins.",
+    "priceEur": null,
+    "available": false,
+    "image": "kollektion/assets/platzierung-sporthose.svg"
+  },
+  {
+    "id": "phosbortae-fraktur-aussenbein",
+    "title": "Sporthose · Schriftfläche",
+    "description": "Hosen-Nachtrag · Separater bearbeitbarer PHOSBORTAE-Frakturschriftzug für das lange äußere Bein.",
+    "priceEur": null,
+    "available": false,
+    "image": "kollektion/assets/phosbortae-fraktur-aussenbein.svg"
+  },
+  {
+    "id": "zeichen-a",
+    "title": "Gold / Dunkel · Zeichen",
+    "description": "CI-Vergleich · Vereinfachte Pflanzen-/Flammenform als bestehende quellenbezogene Ableitung.",
+    "priceEur": null,
+    "available": false,
+    "image": "kollektion/assets/zeichen-a.svg"
+  },
+  {
+    "id": "profilavatar-a",
+    "title": "Gold / Dunkel · Avatar",
+    "description": "CI-Vergleich · Dieselbe Zeichenform in einer vorhandenen kreisförmigen Profilanwendung.",
+    "priceEur": null,
+    "available": false,
+    "image": "kollektion/assets/profilavatar-a.png"
+  },
+  {
+    "id": "website-hero-a",
+    "title": "Gold / Dunkel · Website-Anwendung",
+    "description": "CI-Vergleich · Vorhandene isolierte Heroansicht derselben Website im Farbvergleich.",
+    "priceEur": null,
+    "available": false,
+    "image": "kollektion/assets/website-hero-a.png"
+  },
+  {
+    "id": "hose-schrift-a",
+    "title": "Gold / Dunkel · Hosen-Schriftfläche",
+    "description": "CI-Vergleich · Vorhandene bearbeitbare Frakturschriftfläche der gleichen Hosenidee.",
+    "priceEur": null,
+    "available": false,
+    "image": "kollektion/assets/hose-schrift-a.svg"
+  },
+  {
+    "id": "zeichen-b",
+    "title": "Türkis / Gold · Zeichen",
+    "description": "CI-Vergleich · Vereinfachte Pflanzen-/Flammenform als bestehende quellenbezogene Ableitung.",
+    "priceEur": null,
+    "available": false,
+    "image": "kollektion/assets/zeichen-b.svg"
+  },
+  {
+    "id": "profilavatar-b",
+    "title": "Türkis / Gold · Avatar",
+    "description": "CI-Vergleich · Dieselbe Zeichenform in einer vorhandenen kreisförmigen Profilanwendung.",
+    "priceEur": null,
+    "available": false,
+    "image": "kollektion/assets/profilavatar-b.png"
+  },
+  {
+    "id": "website-hero-b",
+    "title": "Türkis / Gold · Website-Anwendung",
+    "description": "CI-Vergleich · Vorhandene isolierte Heroansicht derselben Website im Farbvergleich.",
+    "priceEur": null,
+    "available": false,
+    "image": "kollektion/assets/website-hero-b.png"
+  },
+  {
+    "id": "hose-schrift-b",
+    "title": "Türkis / Gold · Hosen-Schriftfläche",
+    "description": "CI-Vergleich · Vorhandene bearbeitbare Frakturschriftfläche der gleichen Hosenidee.",
+    "priceEur": null,
+    "available": false,
+    "image": "kollektion/assets/hose-schrift-b.svg"
+  },
+  {
+    "id": "historisch-tasse-morgenlicht",
+    "title": "Tasse · Morgenlicht",
+    "description": "Historische Produktidee · Licht trifft Wurzel. Ein ruhiger Anfang. Licht und Verzweigung ziehen sich als feine Linie um die Tasse – ein kleines Stück Ursprung für den Tisch.",
+    "priceEur": null,
+    "available": false,
+    "image": "kollektion/assets/tasse-morgenlicht.png"
+  },
+  {
+    "id": "historisch-sticker-keimzeichen",
+    "title": "Sticker · Keimzeichen",
+    "description": "Historische Produktidee · Drei Zeichen. Ein Gedanke. Licht, Wurzel, Wortmarke. Drei kleine Zeichen, die zusammengehören und einzeln ihren Platz finden.",
+    "priceEur": null,
+    "available": false,
+    "image": "kollektion/assets/sticker-keimzeichen.png"
+  },
+  {
+    "id": "historisch-feuerzeug-lichtfunke",
+    "title": "Feuerzeug · Lichtfunke",
+    "description": "Historische Produktidee · Ein Strich Licht. Ein vertikaler Lichtstrich auf dunklem Grund. Reduziert auf das Zeichen, mit dem etwas beginnt.",
+    "priceEur": null,
+    "available": false,
+    "image": "kollektion/assets/feuerzeug-lichtfunke.png"
+  },
+  {
+    "id": "historisch-hoodie-wurzelwerk",
+    "title": "Hoodie · Wurzelwerk",
+    "description": "Historische Produktidee · Verwurzelt. Nach oben offen. Vorne ein leises Zeichen, hinten eine ganze Idee. Das Wurzelwerk verbindet den Lichtpunkt mit einem verzweigten Rückenmotiv.",
+    "priceEur": null,
+    "available": false,
+    "image": "kollektion/assets/hoodie-wurzelwerk.png"
+  },
+  {
+    "id": "historisch-hose-freiraum",
+    "title": "Hose · Freiraum",
+    "description": "Historische Produktidee · Raum für Bewegung. Ein gerades Bein, ein zurückhaltendes Zeichen. Die passende Ruhe zum Wurzelwerk – auch für sich allein.",
+    "priceEur": null,
+    "available": false,
+    "image": "kollektion/assets/hose-freiraum.png"
+  },
+  {
+    "id": "historisch-bauchtasche-wegzeichen",
+    "title": "Bauchtasche · Wegzeichen",
+    "description": "Historische Produktidee · Nah bei dir. Für das, was mitmuss. Ein kompaktes Format mit einem klaren Zeichen auf der Front.",
+    "priceEur": null,
+    "available": false,
+    "image": "kollektion/assets/bauchtasche-wegzeichen.png"
+  },
+  {
+    "id": "historisch-rucksack-weltenraum",
+    "title": "Rucksack · Weltenraum",
+    "description": "Historische Produktidee · Für neue Wege. Ein wenig Platz für die nächste Welt. Das große Wurzelzeichen gibt der ruhigen Front einen gemeinsamen Ursprung.",
+    "priceEur": null,
+    "available": false,
+    "image": "kollektion/assets/rucksack-weltenraum.png"
+  },
+  {
+    "id": "historisch-cap-lichtkrone",
+    "title": "Cap · Lichtkrone",
+    "description": "Historische Produktidee · Der kleine Lichtpunkt. Ein konzentriertes Zeichen über dem Schirm. Licht und Wurzel treffen sich in einem kleinen, präzisen Stickmotiv.",
+    "priceEur": null,
+    "available": false,
+    "image": "kollektion/assets/cap-lichtkrone.png"
+  }
+]

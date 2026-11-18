@@ -1,0 +1,4 @@
+'use strict';
+const products=PhosCatalog;
+const list=document.querySelector('#product-list');document.querySelector('#shop-empty').hidden=products.length>0;
+for(const p of products.slice(0,3)){const card=document.createElement('article');card.className='product';if(p.image){const img=document.createElement('img');img.src=p.image;img.alt=p.title;card.append(img);}const h=document.createElement('h2');h.textContent=p.title;const d=document.createElement('p');d.textContent=p.description;const price=document.createElement('b');price.textContent='Designvorschau · nicht bestellbar';const status=document.createElement('p');status.className='small';status.textContent='Keine Verfügbarkeits- oder Lieferzusage.';const link=document.createElement('a');link.href='kollektion/#entwurf='+encodeURIComponent(p.id);link.className='text-link';link.textContent='Entwurf im Katalog öffnen →';card.append(h,d,price,status,link);list.append(card);}

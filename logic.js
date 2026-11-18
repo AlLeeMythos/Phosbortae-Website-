@@ -1,0 +1,7 @@
+'use strict';
+const PhosLogic={
+ match(areas,interests,skills){const explicit=[...new Set([...interests,...skills])];return explicit.length?areas.filter(a=>explicit.includes(a.id)):areas.slice();},
+ validateCatalog(data){if(!Array.isArray(data))throw Error('Der Katalog muss eine Liste enthalten.');if(data.length>100)throw Error('Höchstens100 Artikel.');const ids=new Set();return data.map((p,i)=>{if(!p||typeof p!=='object')throw Error('Ungültiger Artikel.');const id=String(p.id||'').trim(),title=String(p.title||'').trim(),description=String(p.description||'').trim();if(!/^[a-z0-9-]{1,60}$/.test(id)||ids.has(id))throw Error('Jeder Artikel braucht eine eindeutige Kennung aus Kleinbuchstaben, Ziffern und Bindestrichen.');ids.add(id);if(!title||title.length>160||description.length>2000)throw Error('Titel fehlt oder Text zu lang.');const price=p.priceEur===null||p.priceEur===''||p.priceEur===undefined?null:Number(p.priceEur);if(price!==null&&(!Number.isFinite(price)||price<0||price>100000))throw Error('Preis ungültig.');const image=String(p.image||'');if(image&&!(/^(assets\/[a-zA-Z0-9_./-]+|data:image\/(png|jpeg|webp);base64,[a-zA-Z0-9+/=]+|https:\/\/[^\s<>]+)$/.test(image)))throw Error('Bildadresse ungültig.');return {id,title,description,priceEur:price,image,available:p.available===true};});}
+};
+if(typeof module!=='undefined')module.exports=PhosLogic;
+if(typeof window!=='undefined')window.PhosLogic=PhosLogic;

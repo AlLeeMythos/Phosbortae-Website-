@@ -1,9 +1,63 @@
 {
-  "schema":1,
-  "hierarchy":"open",
-  "areas":[
-    {"id":"zwischenraum","parent_id":"phosbortae","label":"ZWISCHENRAUM","de":"Raum für ungehörte Sätze, Verlust und Weiterleben. Die Bleibenden verbindet Musik und Worte für Erfahrungen, für die im Alltag oft die Sprache fehlt.","en":"A space for unheard words, loss and continuing to live. Die Bleibenden brings music and words to experiences that can be difficult to express.","href":"#leitfaeden","link_de":"Orientierung und Gesprächshilfen →","link_en":"Find conversation resources →"},
-    {"id":"one-sky","parent_id":"phosbortae","label":"ONE SKY","de":"Kein Mensch ist ein Ziel. Ein Musikprojekt gegen Krieg und für den Wert jedes Menschenlebens — über Sprachen und Grenzen hinweg.","en":"No human being is a target. A music project against war and for the value of every human life — across languages and borders.","href":"#mitwirken","link_de":"Mit einem Gedanken anknüpfen →","link_en":"Start with a thought →"},
-    {"id":"seelenklang","parent_id":"phosbortae","label":"Seelenklang","de":"Erinnerungen, Werte und eigene Erfahrungen als Ausgangspunkt für persönlichen Ausdruck. Ein entstehendes Musik- und Reflexionsprojekt.","en":"Memories, values and lived experience as starting points for personal expression. A music and reflection project in development.","href":"orakel/","link_de":"Eigene Interessen erkunden →","link_en":"Explore your interests (German) →"}
+  "schema": 1,
+  "ordering": "navigation_20261118",
+  "structure_status": "working_navigation_not_final_world_decision",
+  "worlds": [
+    {
+      "id": "zwischenraum",
+      "number": "01",
+      "name": "ZWISCHENRAUM",
+      "eyebrow": "Eine Welt für ungehörte Sätze",
+      "purpose": "Verlust braucht Raum.",
+      "text": "Musik und Texte geben Erfahrungen von Krise, Verlust und Weiterleben eine Sprache. Der Zyklus „Die Bleibenden“ richtet sich an Menschen, die nach einem Suizid weiterleben.",
+      "next": "Texte und Hilfen entdecken",
+      "detail": "Du entscheidest selbst, ob und wie weit du dich mit diesen Themen beschäftigen möchtest. Werke, Schutzrahmen und konkrete Hilfen bleiben getrennt erkennbar. Der Trauerbereich enthält kein Orakel und keine automatisierte Personenzuordnung.",
+      "links": [
+        {
+          "label": "Notfallkarte Deutschland",
+          "href": "downloads/notfallkarte-deutschland.pdf",
+          "type": "PDF · Deutsch"
+        },
+        {
+          "label": "Gesprächs-Kurzleitfaden",
+          "href": "downloads/gespraech-kurzleitfaden.pdf",
+          "type": "PDF · Deutsch"
+        }
+      ]
+    },
+    {
+      "id": "one-sky",
+      "number": "02",
+      "name": "KEIN MENSCH IST EIN ZIEL",
+      "eyebrow": "ONE SKY · Musik gegen Krieg",
+      "purpose": "Der Wert eines Lebens kennt keine Grenze.",
+      "text": "Der Bereich richtet den Blick auf einzelne Menschen. Herkunft und Sprache bestimmen weder den Wert eines Lebens noch persönliche Schuld. Konkrete Handlungen bleiben benennbar.",
+      "next": "ONE SKY kennenlernen",
+      "detail": "Künstlerische Arbeit gegen Krieg und für Würde, Gerechtigkeit und Selbstbestimmung – ohne den Menschen auf seine Herkunft zu reduzieren.",
+      "links": [
+        {
+          "label": "Musik und ONE SKY",
+          "href": "musik.html#one-sky",
+          "type": "Musikübersicht"
+        }
+      ]
+    },
+    {
+      "id": "seelenklang",
+      "number": "03",
+      "name": "Seelenklang",
+      "eyebrow": "Die eigene Geschichte",
+      "purpose": "Erinnerungen werden Ausdruck.",
+      "text": "Persönliche Erfahrungen, Werte und Erinnerungen geben den Ausgangspunkt für Musik und begleitende Texte. Seelenklang macht die eigene Geschichte zum Material für ein musikalisches Portrait.",
+      "next": "Fragen und Ausdrucksformen erkunden",
+      "detail": "Ein persönlicher Zugang zu Musik und Schreiben. Die Entwicklung individueller Portraits und Begleitmaterialien ist vorbereitet; ein bestellbarer Portrait-Service besteht hier noch nicht.",
+      "links": [
+        {
+          "label": "Gesprächs-Kurzleitfaden",
+          "href": "downloads/gespraech-kurzleitfaden.pdf",
+          "type": "PDF · Deutsch"
+        }
+      ]
+    }
   ]
 }

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "notfall",
+    "world": "zwischenraum",
+    "title": "Notfallkarte Deutschland",
+    "desc": "Geprüfter deutscher Einseiter aus dem vorhandenen Leitfadenpaket.",
+    "href": "downloads/notfallkarte-deutschland.pdf",
+    "type": "PDF · Deutsch · 1 Seite"
+  },
+  {
+    "id": "gespraech",
+    "world": "seelenklang",
+    "title": "Gesprächs-Kurzleitfaden",
+    "desc": "Ein Rahmen für freiwillige Gespräche zwischen zwei Erwachsenen.",
+    "href": "downloads/gespraech-kurzleitfaden.pdf",
+    "type": "PDF · Deutsch · 1 Seite"
+  }
+]
