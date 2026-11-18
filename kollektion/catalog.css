@@ -116,3 +116,5 @@ dialog::backdrop { background: rgb(8 12 18 / 92%); }
   .dialog-top { padding: .35rem .7rem; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+.brand img.crest { width: clamp(2.75rem,4.6vw,3.75rem); height: auto; border-radius: 50%; background: transparent; }

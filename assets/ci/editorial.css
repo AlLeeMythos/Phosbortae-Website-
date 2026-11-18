@@ -116,3 +116,10 @@
   @media (max-width:720px) { .shop-feature,.principles { grid-template-columns:1fr; } }
 }
 .all-materials { margin-top: 1.5rem; }
+@media screen {
+  .wordmark { gap: .75rem; }
+  .wordmark .crest { width: clamp(2.75rem,4.6vw,3.75rem); height: auto; border-radius: 50%; }
+  .crest-detail { float: right; display: block; width: clamp(6rem,15vw,10rem); margin: 0 0 1.5rem 2rem; }
+  .crest-detail img { width: 100%; height: auto; border-radius: 50%; }
+  @media (max-width: 600px) { .crest-detail { float: none; margin: 0 0 1.75rem; } }
+}
