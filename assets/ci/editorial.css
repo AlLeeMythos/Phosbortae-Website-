@@ -1,0 +1,124 @@
+/* Shared editorial identity across the public pages. */
+@media screen {
+  :root {
+    --bg: var(--ci-night);
+    --panel: #1d2530;
+    --ink: var(--ci-paper);
+    --silver: #e8dcc5;
+    --muted: #c4c4bf;
+    --accent: var(--ci-champagne);
+    --line: #49494a;
+  }
+  body { font: 400 1.0625rem/1.72 var(--ci-sans); }
+  .wrap { width: min(calc(100% - clamp(2.25rem, 9vw, 10rem)), 83rem); }
+  .mast { min-height: 5.5rem; }
+  .mast.wrap {
+    background: #f6f1e7; color: #202630; width: 100%;
+    padding-inline: max(calc((100% - 83rem)/2), clamp(1.125rem,4.5vw,5rem));
+    min-height: 5.5rem; border-bottom: 1px solid #b8ad97;
+  }
+  .wordmark {
+    display: inline-block; vertical-align: middle; width: 9.5rem; aspect-ratio: 512 / 279;
+    background: url("historisches-logo.webp") left center / contain no-repeat;
+    font-size: 0; line-height: 0;
+  }
+  .mast .wordmark {
+    mask-image: linear-gradient(90deg, transparent, black 19%, black 81%, transparent),
+                linear-gradient(transparent, black 15%, black 84%, transparent);
+    mask-composite: intersect;
+  }
+  .mast .wordmark:focus-visible { mask-image: none; }
+  .mast .nav-toggle { color:#26282a; border-color:#857b6c; }
+  .mast nav a:hover { color:#735426; }
+  .mast nav a:focus-visible,.mast .wordmark:focus-visible,.mast .nav-toggle:focus-visible { outline-color:#765725; }
+  .mast nav { gap: clamp(.85rem, 2.1vw, 2.2rem); }
+  .mast nav a { font-size: .88rem; font-weight: 500; }
+  .text-link:hover, .footer nav a:hover { color: var(--accent); }
+  .mast nav a[aria-current] { border-color: var(--accent); }
+  h1, h2, h3, .action-card>b {
+    font-family: var(--ci-serif); font-weight: 500; line-height: 1.02; letter-spacing: -.034em;
+  }
+  h1 { font-size: clamp(3.6rem, 7vw, 7.2rem); }
+  h2 { font-size: clamp(2.7rem, 4.5vw, 4.6rem); }
+  .eyebrow { color: var(--accent); font-size: .72rem; font-weight: 600; letter-spacing: .14em; }
+  .lead { font-size: clamp(1.05rem, 1.5vw, 1.3rem); }
+  .button { background: var(--accent); border: 1px solid var(--accent); color: #202027; border-radius: 2px; font-weight: 600; }
+  .button:hover { background: var(--ci-paper); }
+  .button.secondary { color: var(--ci-paper); background: transparent; border-color: #858179; }
+  .button.secondary:hover { background: #30323a; }
+  .text-link, .arrow-link { font-weight: 500; }
+  .world-card:hover { background: #1d2530; }
+  .album h2, .product h2, .world-card h3, .action-card>b { font-weight: 600; }
+  .feature-band { background: #202833; }
+  .action-card { border-top: 1px solid #827862; }
+  .check input { accent-color: var(--ci-champagne); }
+  .page-intro { padding-block: clamp(3rem, 7vw, 7rem); }
+  .manuscript, .help-content { max-width: 52rem; }
+  .footer { padding-block: 3.5rem; }
+  .footer small { color: var(--muted); }
+  .footer nav a { text-decoration-color: #827862; }
+  .nav-toggle { border-radius: 2px; }
+  .home-hero {
+    display: grid; grid-template-columns: 1fr 1.03fr;
+    gap: clamp(2rem, 5vw, 6rem); align-items: center;
+    padding-block: clamp(2.5rem, 4.6vw, 5rem);
+  }
+  .home-hero .eyebrow { display: flex; align-items: center; gap: .9rem; margin-bottom: 1.5rem; }
+  .home-hero .eyebrow::before { content: ""; width: 2.5rem; height: 1px; background: currentColor; }
+  .home-hero h1 {
+    font-size: clamp(4.1rem, 6.8vw, 7.45rem);
+    line-height: .92; letter-spacing: -.045em;
+  }
+  .home-hero h1 em { font-weight: 500; font-style: normal; color: var(--accent); }
+  .home-hero .lead { margin-top: 1.55rem; max-width: 32ch; color: var(--muted); }
+  .home-hero .actions { margin-top: 2rem; gap: 1rem 1.5rem; }
+  .home-art { width: 100%; aspect-ratio: 1.2; object-fit: cover; }
+  .home-note {
+    background: var(--ci-paper); color: #262b30; padding-block: clamp(2.6rem, 5.5vw, 6rem);
+  }
+  .home-note .wrap { display: grid; grid-template-columns: 1fr 1.18fr; gap: clamp(2rem, 8vw, 8rem); align-items: start; }
+  .home-note .eyebrow { color: #6e512b; margin-bottom: .85rem; }
+  .home-note h2 { max-width: 13ch; }
+  .home-note p { max-width: 58ch; }
+  .home-note p+p { margin-top: .7rem; }
+  .home-note .small { color: #514e48; }
+  .home-note + .section { border: 0; }
+  .section { padding-block: clamp(3.4rem, 6vw, 6rem); }
+  .section>h2 + .lead, .section>h2 + p { margin-top: 1rem; }
+  .section>p + .button { margin-top: 1.4rem; }
+  @media (max-width: 850px) {
+    .home-hero { gap: 2rem; }
+    .home-hero h1 { font-size: clamp(3rem, 7.6vw, 5rem); }
+    .home-hero .actions { align-items: flex-start; }
+  }
+  @media (max-width: 720px) {
+    .mast.wrap { min-height: 4.7rem; gap: .7rem; padding-block: .35rem; } .mast .wordmark { width: 7.7rem; }
+    .home-hero { grid-template-columns: 1fr; gap: 2rem; padding-block: 2.6rem 2rem; }
+    .home-hero h1 { font-size: clamp(3.5rem, 14.8vw, 6.5rem); }
+    .home-hero .lead { margin-top: 1.2rem; }
+    .home-hero .actions { margin-top: 1.4rem; }
+    .home-art { aspect-ratio: 1.75; }
+    .home-note .wrap { grid-template-columns: 1fr; gap: 1.5rem; }
+    .home-note h2 { max-width: none; }
+    .page-intro h1 { font-size: clamp(2.55rem, 11.5vw, 4.4rem); }
+  }
+}
+@media print {
+  .home-art, .home-hero .actions { display: none; }
+  .home-note { margin-block: 2rem; }
+}
+@media screen {
+  .home-note .text-link { display: inline-block; margin-top: 1.2rem; }
+  .home-note .text-link:hover { color: #735426; }
+  .shop-feature { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1fr); gap: clamp(2rem,6vw,7rem); align-items:center; padding-block:clamp(3rem,6vw,6rem); }
+  .shop-visual { display:block; background:#20252c; }
+  .shop-visual img { width:100%; max-height:32rem; object-fit:contain; }
+  .shop-feature h2 { margin-bottom:1rem; }
+  .shop-feature .button { margin-top:1.5rem; }
+  .principles { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:0 clamp(2rem,6vw,7rem); padding:0; }
+  .principles>div { border-top:1px solid var(--line); padding:1.5rem 0; }
+  .principles dt { font:500 2.1rem/1.1 var(--ci-serif); color:var(--ci-champagne); }
+  .principles dd { margin:.75rem 0 0; max-width:50ch; }
+  @media (max-width:720px) { .shop-feature,.principles { grid-template-columns:1fr; } }
+}
+.all-materials { margin-top: 1.5rem; }

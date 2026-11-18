@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Cormorant Garamond";
+  src: url("cormorant.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: "DM Sans";
+  src: url("dm-sans.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+}
+:root {
+  --ci-night: #141a23;
+  --ci-paper: #f6f1e7;
+  --ci-champagne: #dcbf88;
+  --ci-serif: "Cormorant Garamond", Georgia, serif;
+  --ci-sans: "DM Sans", "Segoe UI", sans-serif;
+}

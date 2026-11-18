@@ -1,18 +1,57 @@
 [
   {
+    "id": "ideenblatt",
+    "world": "universum",
+    "title": "Vom Gedanken zum ersten Schritt",
+    "desc": "Du hast eine Idee. Finde eine kleine Handlung, mit der du sie heute ausprobieren kannst.",
+    "href": "downloads/ideenblatt.pdf",
+    "read": "ideenblatt.html",
+    "type": "PDF · Deutsch · 1 Seite",
+    "label": "Ideenblatt",
+    "category": "PHOSBORTAE"
+  },
+  {
+    "id": "gemeinsam-planen",
+    "world": "universum",
+    "title": "Ein Vorhaben gemeinsam planen",
+    "desc": "Legt fest, welchen ersten Versuch ihr gemeinsam macht, wer welchen Teil übernimmt und wann ihr euch wiederseht.",
+    "href": "downloads/gemeinsam-planen.pdf",
+    "read": "gemeinsam-planen.html",
+    "type": "PDF · Deutsch · 1 Seite",
+    "label": "Planungsblatt",
+    "category": "PHOSBORTAE"
+  },
+  {
+    "id": "vom-geraeusch-zur-textzeile",
+    "world": "seelenklang",
+    "title": "Vom Geräusch zur Textzeile",
+    "desc": "Aus einer kleinen Hörbeobachtung entsteht eine erste eigene Zeile. Du entscheidest, ob du sie mit jemandem teilst.",
+    "href": "downloads/vom-geraeusch-zur-textzeile.pdf",
+    "read": "vom-geraeusch-zur-textzeile.html",
+    "type": "PDF · Deutsch · 1 Seite",
+    "label": "Schreibblatt",
+    "category": "Seelenklang"
+  },
+  {
     "id": "notfall",
     "world": "zwischenraum",
     "title": "Notfallkarte Deutschland",
-    "desc": "Geprüfter deutscher Einseiter aus dem vorhandenen Leitfadenpaket.",
+    "desc": "Die vorhandene Karte bündelt wichtige Anlaufstellen in Deutschland auf einer Seite.",
     "href": "downloads/notfallkarte-deutschland.pdf",
-    "type": "PDF · Deutsch · 1 Seite"
+    "type": "PDF · Deutsch · 1 Seite",
+    "read": "hilfe.html#notfall",
+    "label": "Notfallkarte",
+    "category": "ZWISCHENRAUM"
   },
   {
     "id": "gespraech",
     "world": "seelenklang",
     "title": "Gesprächs-Kurzleitfaden",
-    "desc": "Ein Rahmen für freiwillige Gespräche zwischen zwei Erwachsenen.",
+    "desc": "Ein Rahmen für ein freiwilliges Gespräch zwischen zwei Erwachsenen, von der Einladung bis zum Abschluss.",
     "href": "downloads/gespraech-kurzleitfaden.pdf",
-    "type": "PDF · Deutsch · 1 Seite"
+    "type": "PDF · Deutsch · 1 Seite",
+    "read": "hilfe.html#gespraech",
+    "label": "Gesprächsleitfaden",
+    "category": "Seelenklang"
   }
 ]

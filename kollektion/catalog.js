@@ -17,5 +17,9 @@ function step(direction){const list=shown.some(x=>x.id===current)?shown:data;con
 document.querySelector('#previous-design').addEventListener('click',()=>step(-1));document.querySelector('#next-design').addEventListener('click',()=>step(1));
 dialog.addEventListener('keydown',event=>{if(event.target===viewport&&viewport.classList.contains('zoomed'))return;if(event.key==='ArrowRight'||event.key==='ArrowLeft'){event.preventDefault();step(event.key==='ArrowRight'?1:-1);}});
 zoom.addEventListener('click',()=>{const enlarged=viewport.classList.toggle('zoomed');zoom.setAttribute('aria-pressed',String(enlarged));zoom.textContent=enlarged?'Ansicht anpassen −':'Vergrößern +';if(enlarged){viewport.style.setProperty('--zoom-width',Math.max(image.naturalWidth||1400,viewport.clientWidth*2)+'px');}else{viewport.scrollTop=0;viewport.scrollLeft=0;}});
-applyFilter();syncHash();
+const requestedCategory = new URLSearchParams(location.search).get('bereich');
+const categoryButton = [...document.querySelectorAll('[data-filter]')].find(button => button.dataset.filter === requestedCategory);
+if (categoryButton) categoryButton.click();
+else applyFilter();
+syncHash();
 })();
